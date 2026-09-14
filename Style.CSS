@@ -23,6 +23,10 @@ a :active {
   color: orange;    
 }
 
+a {
+  border-right: 2px solid black;
+  padding-right: 5px;
+}
 
 nav {
   justify-content: center;
@@ -31,17 +35,21 @@ nav {
   border: 2px dashed black;
 }
 
-.navBar {
-  border-right: 1px solid black ;
+nav a:first-child{
+  border-left: 2px solid black;
+  padding-left:5px;
 }
 
-h2 {
-  justify-self: center;
+#titleBar{
   color: #cfff04;
-  padding: 12px;
   background-color: rgba(209, 77, 134, 0.5);
-  display: flex;
-  border: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  text-align:center;
+  height:100px;
+  width:100%;
+  line-height: 100px;
+
 }
 
 .Account {
