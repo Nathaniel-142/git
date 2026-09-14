@@ -1,3 +1,12 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(164, 234, 228, 0.5);
+}
+
 a :link {
   color: #39FF14;      
 }
@@ -19,11 +28,16 @@ nav {
   justify-content: center;
   padding: 12px;
   justify-self: center;
+  border: 2px dashed black;
 }
 
 h2 {
   justify-self: center;
   color: #cfff04;
+  padding: 12px;
+  background-color: rgba(209, 77, 134, 0.5);
+  display: flex;
+  border: 2px solid black;
 }
 
 .Account {
@@ -33,7 +47,7 @@ h2 {
   background-color: darkgray;
   padding: 12px;
   gap: 12px;
-  font-size: 18px;
-  padding-left: 90%;
+  font-size: 16px;
+  padding-left: 100%;
   
 }
