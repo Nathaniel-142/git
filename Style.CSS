@@ -1,0 +1,38 @@
+a :link {
+  color: #39FF14;      
+}
+
+a :visited {
+  color: #39FF14;   
+}
+
+a :hover {
+  color: red;      
+}
+
+a :active {
+  color: orange;    
+}
+
+
+nav {
+  justify-content: center;
+  padding: 12px;
+  justify-self: center;
+}
+
+h2 {
+  justify-self: center;
+  color: #cfff04;
+}
+
+.Account {
+  display: flex;
+  justify-self: right;
+  justify-content: right;
+  background-color: darkgray;
+  padding: 12px;
+  gap: 12px;
+  font-size: 18px;
+  
+}
